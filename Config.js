@@ -1,0 +1,28 @@
+/* ============ Config ============ */
+window.CONFIG = {
+  // Cámara
+  ANGLE_X_DEFAULT: 0.615,
+  ANGLE_Y_DEFAULT: 0.785,
+  MIN_SCALE: 0.1,
+  MAX_SCALE: 10,
+  ZOOM_FACTOR: 1.05,
+  ANGLE_CLAMP: 1.5,
+
+  // Ejes
+  AXIS_LENGTH: 80,
+  AXIS_COLORS: ['#ff4444', '#44ff44', '#4488ff'],
+
+  // Snap
+  GRID_STEP: 10,
+
+  // Estilo por defecto
+  DEFAULT_LINE_COLOR: '#ffffff',
+  DEFAULT_LINE_WIDTH: 2,
+  DEFAULT_VERTEX_COLOR: '#888888',
+  DEFAULT_VERTEX_RADIUS: 3,
+  DEFAULT_SEL_LINE_COLOR: '#00ffff',
+  DEFAULT_SEL_VERTEX_COLOR: '#00ffff',
+  DEFAULT_PREVIEW_COLOR: '#ffd93d',
+  SEL_LINE_WIDTH: 4,
+  SEL_VERTEX_RADIUS_MULT: 2
+};
